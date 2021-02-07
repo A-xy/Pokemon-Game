@@ -93,5 +93,13 @@ namespace MBP207VİZE
         {
 
         }
+
+        private void geriDonBtn_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.isimLbl.Text = isimLbl.Text;
+            form4.Show();
+            this.Hide();
+        }
     }
 }

@@ -120,11 +120,11 @@ namespace MBP207VİZE
                     createTxt.Clear();
                     mevcutCombo.Items.Add(oyuncuAdi).ToString();
                     guncelleCombo.Items.Add(oyuncuAdi).ToString();
-
+                    baglanti.Close();
                 }
                 
             }
-            baglanti.Close();
+            
         }
         
 
@@ -176,6 +176,7 @@ namespace MBP207VİZE
                 MessageBox.Show("Pokemonlar Güncellendi.");
 
             }
+            baglanti.Close();
         }
 
         private void geriDonBtn_Click(object sender, EventArgs e)

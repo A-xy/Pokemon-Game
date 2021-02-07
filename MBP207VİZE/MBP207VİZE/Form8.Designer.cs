@@ -45,6 +45,7 @@
             this.pokeAciklamaLbl = new System.Windows.Forms.Label();
             this.pokeAciklamaTxt = new System.Windows.Forms.TextBox();
             this.gonderBtn = new System.Windows.Forms.Button();
+            this.geriDonBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblHg
@@ -199,12 +200,25 @@
             this.gonderBtn.UseVisualStyleBackColor = true;
             this.gonderBtn.Click += new System.EventHandler(this.gonderBtn_Click);
             // 
+            // geriDonBtn
+            // 
+            this.geriDonBtn.BackgroundImage = global::MBP207VİZE.Properties.Resources.arkaplan7;
+            this.geriDonBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.geriDonBtn.Location = new System.Drawing.Point(643, 392);
+            this.geriDonBtn.Name = "geriDonBtn";
+            this.geriDonBtn.Size = new System.Drawing.Size(159, 52);
+            this.geriDonBtn.TabIndex = 16;
+            this.geriDonBtn.Text = "GERİ DÖN";
+            this.geriDonBtn.UseVisualStyleBackColor = true;
+            this.geriDonBtn.Click += new System.EventHandler(this.geriDonBtn_Click);
+            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MBP207VİZE.Properties.Resources.resizedimage;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.geriDonBtn);
             this.Controls.Add(this.gonderBtn);
             this.Controls.Add(this.pokeAciklamaTxt);
             this.Controls.Add(this.pokeAciklamaLbl);
@@ -248,5 +262,6 @@
         private System.Windows.Forms.Label pokeAciklamaLbl;
         private System.Windows.Forms.TextBox pokeAciklamaTxt;
         private System.Windows.Forms.Button gonderBtn;
+        private System.Windows.Forms.Button geriDonBtn;
     }
 }

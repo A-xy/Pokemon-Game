@@ -84,6 +84,7 @@
             this.anasayfaBtn.TabIndex = 3;
             this.anasayfaBtn.Text = "ANA SAYFA";
             this.anasayfaBtn.UseVisualStyleBackColor = true;
+            this.anasayfaBtn.Click += new System.EventHandler(this.anasayfaBtn_Click);
             // 
             // hosgeldinizLbl
             // 

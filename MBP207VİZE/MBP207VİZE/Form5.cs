@@ -61,7 +61,7 @@ namespace MBP207VİZE
 
                 //Veritabanı başlıyor
                 baglanti.Open();
-                SqlCommand pwloseSorgu = new SqlCommand("SELECT * FROM kullanici WHERE kAdi='" + kadi + "' OR eposta='" + eposta + "'", baglanti);
+                SqlCommand pwloseSorgu = new SqlCommand("SELECT * FROM kullanici WHERE kAdi='" + kadi + "' AND eposta='" + eposta + "'", baglanti);
                 SqlDataReader pwloseKontrol = pwloseSorgu.ExecuteReader();
                 if (pwloseKontrol.Read())
                 {
